@@ -1,0 +1,79 @@
+.section {
+    display: flex;
+    width: 80%;
+    height: 180px;
+    background-color: bisque;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    &_title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 10em;
+
+
+        &_item {
+            width: 25em;
+            // width: 540px;
+
+            &_text {
+                color: var(--Text-Gray-900, #18191F);
+                font-feature-settings: 'liga' off;
+                font-family: Manrope;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 64px;
+            }
+
+            &_p {
+                color: var(--Text-Gray-900, #18191F);
+                font-feature-settings: 'liga' off;
+                font-family: Manrope;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+            }
+        }
+
+
+    }
+
+    &_item {
+        margin-left: 14em;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+
+        &_img {
+            width: 32px;
+            height: 32px;
+        }
+
+        &_text {
+
+            &_p {
+                color: var(--Text-Gray-900, #18191F);
+                font-feature-settings: 'liga' off;
+                font-family: Manrope;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 40px;
+            }
+
+            &_p1 {
+                color: var(--Text-Gray-900, #18191F);
+                font-feature-settings: 'liga' off;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+    }
+}

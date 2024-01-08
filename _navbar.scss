@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+
+}
+
+.navbar {
+    width: 100%;
+
+
+    .container {
+        padding: 2% 5%;
+        // background-color: aqua;
+        width: 80%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        background-image: url(./img/Background.png);
+    }
+
+    &_list {
+
+        width: 100%;
+        align-items: center;
+        display: flex;
+        // background-color: blue;
+        gap: 5em;
+
+        &_item {
+            gap: 15px;
+            align-items: center;
+            display: flex;
+
+            &_logo {
+                margin-left: 2%;
+            }
+        }
+    }
+
+    &_title {
+        padding-top: 100px;
+        display: flex;
+        align-items: center;
+
+        &_child {
+            align-items: center;
+            font-size: 80px;
+            width: 730px;
+            color: var(--Text-Gray-900, #18191F);
+            font-feature-settings: 'liga' off;
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 98px;
+
+            &_text {
+                align-items: center;
+            }
+
+        }
+    }
+
+}

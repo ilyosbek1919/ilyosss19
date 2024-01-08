@@ -1,0 +1,67 @@
+.main {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    //    border: 5px solid red;
+    &_navbar {
+
+        width: 100%;
+        margin-left: 6em;
+        margin-top: 20px;
+
+        &_img {
+            width: 9rem;
+            padding: 0.5rem 1em;
+
+        }
+
+    }
+
+    &_text {
+        margin-left: 20em;
+        margin-top: 6em;
+        width: 10%;
+
+        &_p {
+            width: 540px;
+            color: var(--Text-Gray-900, #18191F);
+            text-align: center;
+            font-feature-settings: 'liga' off;
+            font-family: Manrope;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 64px;
+        }
+
+        &_p1 {
+            align-self: stretch;
+            color: var(--Text-Gray-900, #18191F);
+            text-align: center;
+            font-feature-settings: 'liga' off;
+            font-family: Manrope;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+            width: 540px;
+        }
+    }
+
+    &_item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 60px;
+        line-height: 20px;
+        width: 100%;
+
+        &_title {
+            line-height: 30px;
+            width: 350px;
+            text-align: center;
+        }
+    }
+}
